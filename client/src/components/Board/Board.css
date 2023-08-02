@@ -1,0 +1,19 @@
+.icon-colour {
+  color: rgb(145, 143, 143);
+}
+.selector::-webkit-scrollbar {
+  width: 6px;
+}
+
+.selector::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.selector::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.selector::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,11 +1,11 @@
 import React from "react";
-
+import axios from "axios";
 export default function CheckBox() {
   return (
     <div>
       <ul className="items-center w-full text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex px-2 py-2">
         <li className=" dark:border-gray-600">
-          <div class="flex items-center pl-3">
+          <div className="flex items-center pl-3">
             <input
               id="Status"
               type="checkbox"
