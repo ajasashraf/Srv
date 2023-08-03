@@ -11,7 +11,7 @@ import { TbPower } from "react-icons/Tb";
 export default function Navbar() {
   const notificationCount = 6;
   return (
-    <nav className="flex justify-between px-4 py-5 items-center bg-white shadow-md">
+    <div className="flex justify-between px-4 py-5 items-center bg-white shadow-md">
       <div className="flex items-center border-2 rounded border-slate-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -57,6 +57,6 @@ export default function Navbar() {
           <TbPower className="h-6 w-6 cursor-pointer" />
         </div>
       </div>
-    </nav>
+    </div>
   );
 }

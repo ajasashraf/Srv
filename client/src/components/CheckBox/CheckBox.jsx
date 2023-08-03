@@ -162,7 +162,7 @@ export default function CheckBox() {
 
   return (
     <>
-      <div>
+      <div className="mt-0.5">
         <ul className="items-center w-full text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:flex px-2 py-2">
           {status.map((statusList) => (
             <li key={statusList._id} className=" dark:border-gray-600">
