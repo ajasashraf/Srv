@@ -19,7 +19,7 @@ export default function BoardSingleData({ name, value }) {
         >
           {value.length !== 0 ? (
             value.map((details) => (
-              <a className="w-56 h-26 my-2 mx-1 p-2 bg-white  border-l-4 border-yellow-200 rounded-lg shadow hover:bg-gray-100  dark:hover:bg-gray-300">
+              <a className="w-56 h-26 my-2 mx-1 p-2 bg-white  border-l-4 border-yellow-300 rounded-lg shadow hover:bg-gray-100  dark:hover:bg-gray-300">
                 <p className="font-semibold text-gray-700 dark:text-black ">
                   {details.lead_reg_id.reg_name}
                 </p>
