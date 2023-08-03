@@ -7,9 +7,4 @@ export default defineConfig({
   server: {
     port: 4000,
   },
-  build: {
-    rollupOptions: {
-      external: ["react-icons"],
-    },
-  },
 });
